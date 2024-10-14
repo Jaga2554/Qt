@@ -1,0 +1,180 @@
+{
+    "classes": [
+        {
+            "className": "ModeManager",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keyCode",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "handleKeyPress",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "mode",
+                    "notify": "modeChanged",
+                    "read": "mode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "progressValue",
+                    "notify": "progressValueChanged",
+                    "read": "progressValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setProgressValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "rightArrow",
+                    "notify": "rightArrowUpdated",
+                    "read": "rightArrow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setRightArrow"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "leftArrow",
+                    "notify": "leftArrowUpdated",
+                    "read": "leftArrow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setLeftArrow"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "battHealth",
+                    "notify": "battHealthChanged",
+                    "read": "battHealth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBattHealth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "speed",
+                    "notify": "speedChanged",
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpeed"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "arc",
+                    "notify": "arcChanged",
+                    "read": "arc",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setArc"
+                }
+            ],
+            "qualifiedClassName": "ModeManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "modeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "progressValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rightArrowUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "leftArrowUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "battHealthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newSpeed",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "speedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "arcChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ModeManager.h",
+    "outputRevision": 68
+}

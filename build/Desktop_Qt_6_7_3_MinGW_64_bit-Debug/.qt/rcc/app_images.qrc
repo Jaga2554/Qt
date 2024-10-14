@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="icon.PNG">C:/Users/Admin/Documents/FirstProject/icon.PNG</file>
+    <file alias="battery_grey.PNG">C:/Users/Admin/Documents/FirstProject/battery_grey.PNG</file>
+    <file alias="controller.PNG">C:/Users/Admin/Documents/FirstProject/controller.PNG</file>
+    <file alias="engine.PNG">C:/Users/Admin/Documents/FirstProject/engine.PNG</file>
+    <file alias="green-arrow-left-11383.png">C:/Users/Admin/Documents/FirstProject/green-arrow-left-11383.png</file>
+    <file alias="green-arrow-right-11383.png">C:/Users/Admin/Documents/FirstProject/green-arrow-right-11383.png</file>
+    <file alias="left_arrow.PNG">C:/Users/Admin/Documents/FirstProject/left_arrow.PNG</file>
+  </qresource>
+</RCC>
+

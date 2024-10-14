@@ -1,0 +1,6 @@
+module FirstProject
+typeinfo appFirstProject.qmltypes
+prefer :/qt/qml/FirstProject/
+Main 1.0 Main.qml
+Main_copy 1.0 Main_copy.qml
+
