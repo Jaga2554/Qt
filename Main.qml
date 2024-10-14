@@ -96,37 +96,37 @@ ApplicationWindow {
             height: 400
             anchors.centerIn: parent
 
-            // ModeManager for managing speed and emitting speed changes
-            Item {
-                id: modeManager
-                property int speed: 0  // Current speed
-                property bool arc: true  // Control visibility of the arc
+            // // ModeManager for managing speed and emitting speed changes
+            // Item {
+            //     id: modeManager
+            //     property int speed: 0  // Current speed
+            //     property bool arc: true  // Control visibility of the arc
 
-                //signal speedChanged(int newSpeed)  // Signal to notify speed changes
+            //     //signal speedChanged(int newSpeed)  // Signal to notify speed changes
 
-                // Function to change speed
-                function updateSpeed(newSpeed) {
-                    speed = newSpeed;
-                    speedChanged(newSpeed);  // Emit the signal
-                }
-            }
+            //     // Function to change speed
+            //     function updateSpeed(newSpeed) {
+            //         speed = newSpeed;
+            //         speedChanged(newSpeed);  // Emit the signal
+            //     }
+            // }
 
-            // Timer to automatically increment the speed over time
-            Timer {
-                id: speedTimer
-                interval: 200  // Time interval in milliseconds (100 ms = 0.1 sec)
-                repeat: true  // Repeat the timer indefinitely
-                running: true  // Start the timer when the app starts
+            // // Timer to automatically increment the speed over time
+            // Timer {
+            //     id: speedTimer
+            //     interval: 200  // Time interval in milliseconds (100 ms = 0.1 sec)
+            //     repeat: true  // Repeat the timer indefinitely
+            //     running: true  // Start the timer when the app starts
 
-                onTriggered: {
-                    // Increase speed gradually and loop back to 0 after reaching maxSpeed
-                    if (modeManager.speed < 100) {
-                        modeManager.updateSpeed(modeManager.speed + 1);  // Increase speed
-                    } else {
-                        modeManager.updateSpeed(0);  // Reset to 0 after reaching maxSpeed
-                    }
-                }
-            }
+            //     onTriggered: {
+            //         // Increase speed gradually and loop back to 0 after reaching maxSpeed
+            //         if (modeManager.speed < 100) {
+            //             modeManager.updateSpeed(modeManager.speed + 1);  // Increase speed
+            //         } else {
+            //             modeManager.updateSpeed(0);  // Reset to 0 after reaching maxSpeed
+            //         }
+            //     }
+            // }
 
             Canvas {
                 id: speedArc

@@ -66,15 +66,6 @@ ApplicationWindow {
             width: 400
             height: 400
 
-            //Background of the speedometer
-            // Rectangle {
-            //     id: speedometerRect
-            //     width: parent.width
-            //     height: parent.height
-            //     color: "#2B2F36"
-            //     radius: width / 2
-            // }
-
             //Arc to simulate the gauge using Canvas
             Canvas {
                 id: gaugeCanvas
