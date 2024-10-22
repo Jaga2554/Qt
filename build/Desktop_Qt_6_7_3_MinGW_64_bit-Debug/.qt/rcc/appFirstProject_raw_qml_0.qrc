@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/FirstProject/">
-    <file alias="Main.qml">C:/Users/Admin/Documents/FirstProject/Main.qml</file>
-    <file alias="Main_copy.qml">C:/Users/Admin/Documents/FirstProject/Main_copy.qml</file>
-    <file alias="SpeedometerStyle.qml">C:/Users/Admin/Documents/FirstProject/SpeedometerStyle.qml</file>
-    <file alias="resources.qrc">C:/Users/Admin/Documents/FirstProject/resources.qrc</file>
-  </qresource>
-</RCC>
-
