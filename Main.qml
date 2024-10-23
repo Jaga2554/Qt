@@ -241,8 +241,8 @@ ApplicationWindow {
             height: 25
             anchors.left: parent.left
             anchors.leftMargin: 20
-            anchors.top: parent.top
-            anchors.topMargin: 265
+            anchors.top: temperatureSection.top
+            anchors.topMargin: 50
         }
 
         Image {
@@ -252,8 +252,8 @@ ApplicationWindow {
             height: 25
             anchors.left: parent.left
             anchors.leftMargin: 20
-            anchors.top: parent.top
-            anchors.topMargin: 315
+            anchors.top: temperatureSection.top
+            anchors.topMargin: 95
         }
 
         Image {
@@ -263,8 +263,8 @@ ApplicationWindow {
             height: 30
             anchors.left: parent.left
             anchors.leftMargin: 23
-            anchors.top: parent.top
-            anchors.topMargin: 362
+            anchors.top: temperatureSection.top
+            anchors.topMargin: 140
         }
 
         // Temperature Indicators
