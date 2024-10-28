@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     //Step-1: Attach the existing shared memory
-    QSharedMemory sharedMemory("SharedMemoryExampleKey1");
+    QSharedMemory sharedMemory("SharedMemoryExampleKey");
 
     if(!sharedMemory.attach()) {
         qDebug() << "Failed to attach shared memory";
